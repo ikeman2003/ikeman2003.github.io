@@ -178,7 +178,7 @@ body:before {
     transform: scale(1);
     width: 100vw;
     z-index: 0;
-    background-image: linear-gradient(0deg, #0F1269 0%, rgba(35, 19, 48, 0.941) 100%), url('assets/images/bg.gif');
+    background-image: linear-gradient(0deg, #0F1269 0%, rgba(35, 19, 48, 0.941) 100%), url('images/bg.gif');
     background-position: 0% 0%, center;
     background-repeat: repeat, repeat;
     background-size: cover, 30rem;

@@ -1188,3 +1188,39 @@ p.style3 span.p:nth-child(n + 2) {
     --spacing: 1.125rem;
   }
 }
+
+
+nav {
+  color: white;
+  font-family: Inter;
+}
+
+ul#navbar {
+  padding-top: 3%;
+}
+
+ul#navbar>li {
+  display: inline;
+  border: solid thin rgba(255, 255, 255, .5);
+  border-radius: 20px;
+  margin: 5%;
+}
+
+ul#navbar>li>a {
+  padding: 5%;
+  text-decoration: none;
+}
+
+ul#navbar>li:hover {
+  color: rgba(132, 107, 223, 0.897);
+  border: solid thin;
+}
+
+body {
+  font-family: Inter;
+}
+
+footer>a:hover {
+  color: rgba(132, 107, 223, 0.897);
+}
+

@@ -10,16 +10,16 @@
     $inner = $(".inner"),
     client = (function () {
       var o = {
-          browser: "other",
-          browserVersion: 0,
-          os: "other",
-          osVersion: 0,
-          mobile: false,
-          canUse: null,
-          flags: {
-            lsdUnits: false,
-          },
+        browser: "other",
+        browserVersion: 0,
+        os: "other",
+        osVersion: 0,
+        mobile: false,
+        canUse: null,
+        flags: {
+          lsdUnits: false,
         },
+      },
         ua = navigator.userAgent,
         a,
         i;
@@ -151,7 +151,7 @@
           (e.dataset.scrollOffset ? parseInt(e.dataset.scrollOffset) : 0) *
           parseFloat(getComputedStyle(document.documentElement).fontSize);
         switch (
-          e.dataset.scrollBehavior ? e.dataset.scrollBehavior : "default"
+        e.dataset.scrollBehavior ? e.dataset.scrollBehavior : "default"
         ) {
           case "default":
           default:

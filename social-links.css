@@ -1219,3 +1219,7 @@ ul#navbar>li:hover {
 body {
   font-family: Inter;
 }
+
+footer>a:hover {
+  color: rgba(132, 107, 223, 0.897);
+}

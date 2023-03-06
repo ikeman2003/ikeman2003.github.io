@@ -1224,3 +1224,6 @@ footer>a:hover {
   color: rgba(132, 107, 223, 0.897);
 }
 
+p, footer {
+  color: white;
+}

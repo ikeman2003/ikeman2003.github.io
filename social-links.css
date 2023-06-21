@@ -688,6 +688,12 @@ p.style3 span.p:nth-child(n + 2) {
       rgba(88, 101, 242, 0.008) 100%);
 }
 
+#buttons02 .n10 {
+  background-color: #f70ed8;
+  background-image: linear-gradient(300deg,
+      #b04031 0%,
+      rgba(242, 111, 35, 0.008) 100%);
+}
 
 .container {
   position: relative;
